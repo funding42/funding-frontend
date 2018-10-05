@@ -75,6 +75,7 @@ nav.navbar ul li a, .navbar-brand {
   height: 60px;
   box-shadow: none !important;
   outline: none !important;
+  border-radius: 0;
 }
 .page-header .input-group .form-control::placeholder {
   font-size: 25px;
@@ -150,4 +151,44 @@ footer.footer {
   max-height: 70px;
   margin: 0 auto 30px auto;
   display: block;
+}
+
+.project img {
+  max-width: 100%;
+}
+.project h2 {
+  margin-top: 0;
+}
+.projects-container a {
+  color: #333;
+}
+.project {
+  border-radius: 0;
+  border: 0;
+  background-color: #ddd;
+}
+
+#filter-selection #search-form {
+  margin-bottom: 20px;
+}
+#filter-selection #search-form #search-addon {
+  background-color: transparent !important;
+  border: none !important;
+}
+#filter-selection #search-form .form-control {
+  background-color: transparent;
+  box-shadow: none !important;
+  border: none;
+  border-bottom: 1px solid #555;
+  border-radius: 0;
+}
+.project .profile-picture {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.project-container .profile-picture {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
