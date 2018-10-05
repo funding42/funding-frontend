@@ -10,7 +10,6 @@
     <!-- CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css" />
     <link href="assets/css/funding.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -60,8 +59,61 @@
           <div class="col-md-12">
             <div class="filter">
               <span id="filter-expand"><i class="fa fa-filter"></i> Filter</span>
+              <div class="well" id="filter-selection" style="display: none;">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col-md-3">
+                      <h3>Stadt</h3>
+                      <input type="checkbox" id="muenster" /> <label for="muenster">Münster</label><br />
+                      <input type="checkbox" id="koeln" /> <label for="koeln">Köln</label><br />
+                      <input type="checkbox" id="duesseldorf" /> <label for="duesseldorf">Düsseldorf</label>
+                    </div>
+                    <div class="col-md-3">
+                      <h3>Kategorie</h3>
+                      <input type="checkbox" id="social_project" /> <label for="social_project">Soziale Projekte</label><br />
+                      <input type="checkbox" id="infrastructure_project" /> <label for="social_project">Infrastruktur</label><br />
+                    </div>
+                    <div class="col-md-3">
+                      <h3>Sucht</h3>
+                      <input type="checkbox" id="work" /> <label for="work">Handwerk</label><br />
+                      <input type="checkbox" id="it" /> <label for="it">IT-Dienstleistung</label><br />
+                      <input type="checkbox" id="social" /> <label for="social">Soziales</label>
+                    </div>
+                    <div class="col-md-3">
+                      <h3>Bietet</h3>
+                      <input type="checkbox" id="work2" /> <label for="work2">Handwerk</label><br />
+                      <input type="checkbox" id="it2" /> <label for="it2">IT-Dienstleistung</label><br />
+                      <input type="checkbox" id="social2" /> <label for="social2">Soziales</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="partners">
+      <h2>Partner</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="assets/images/logo_stadtwerke_muenster.png" alt="Stadtwerke Münster" class="logo" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/logo_cronos.png" alt="Cronos" class="logo" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/logo_viadee.png" alt="Viadee" class="logo" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2">
+            <img src="assets/images/logo_westfalen.png" alt="Westfalen Tankstelle" class="logo" />
+          </div>
+          <div class="col-md-4">
+            <img src="assets/images/logo_codeformuenster.png" alt="Code For Münster" class="logo" />
           </div>
         </div>
       </div>
@@ -78,7 +130,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/application.js"></script>
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"></script>
+    <script src="assets/js/frontend.js"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyADYkL96R1SVjPl5UvSEnzZ6rF0KOZPJNc"></script>
     <script src="assets/js/map.js"></script>
   </body>
 </html>

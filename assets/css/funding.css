@@ -22,16 +22,29 @@ nav.navbar ul li a, .navbar-brand {
 }
 .page-header {
   height: 700px;
-  z-index: -1;
+  z-index: 1;
   margin-top: 0;
-  background-image: url('../images/header.jpg');
-  background-size: cover;
   text-align: center;
   padding: 0;
   color: #fff;
+}
+.page-header::after {
+  height: 700px;
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  content: "";
+  filter: brightness(0.9);
   background-position: center;
 }
 .page-header.small {
+  height: 80px;
+}
+.page-header.small::after {
   height: 80px;
 }
 .page-header.small .header-inner {
@@ -44,6 +57,8 @@ nav.navbar ul li a, .navbar-brand {
   width: 100%;
   height: 700px;
   background: url("../images/ipencap.png");
+  position: relative;
+  z-index: 2;
 }
 .page-header .header-inner .push-down {
   position: absolute;
@@ -95,4 +110,44 @@ footer.footer {
   background-color: #ddd !important;
   padding: 15px 0;
   margin-top: 50px;
+}
+
+#map {
+  widows: 100%;
+  height: 400px;
+}
+
+#filter-expand {
+  margin-bottom: 30px;
+  display: block;
+  cursor: pointer;
+  width: auto;
+}
+
+#filter-selection {
+  border-radius: 0;
+  border: 0;
+  background-color: #ddd;
+}
+
+#filter-selection h3 {
+  margin-top: 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+#filter-selection label {
+  font-weight: normal;
+}
+
+.partners h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.partners .logo {
+  width: auto;
+  max-width: 100%;
+  max-height: 70px;
+  margin: 0 auto 30px auto;
+  display: block;
 }
