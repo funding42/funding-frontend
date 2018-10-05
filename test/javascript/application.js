@@ -1,6 +1,5 @@
 var remote_host = "https://192.168.178.51:8080";
 var remote_api_path = "/api"
-https://localhost:8080/api/project/ 
 
 $(function(){
     init();
