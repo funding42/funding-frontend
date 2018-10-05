@@ -191,4 +191,27 @@ footer.footer {
   width: 70%;
   margin: 0 auto;
   margin-bottom: 20px;
+  display: block;
+}
+
+.project-container .well {
+  border-radius: 0;
+  border: 0;
+  background-color: #ddd;
+}
+
+.project-container, .projects-container {
+  text-align: justify;
+}
+
+.project-container h2, .projects-container h2 {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: bold;
+}
+.financing label {
+  margin: 0 !important;
+}
+.financing .progress {
+  margin-bottom: 5px;
 }
