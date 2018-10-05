@@ -30,6 +30,9 @@ nav.navbar ul li a, .navbar-brand {
   padding: 0;
   color: #fff;
 }
+.page-header.small {
+
+}
 .page-header h1 {
   font-weight: bold;
 }
