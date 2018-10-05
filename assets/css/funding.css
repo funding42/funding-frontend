@@ -29,9 +29,13 @@ nav.navbar ul li a, .navbar-brand {
   text-align: center;
   padding: 0;
   color: #fff;
+  background-position: center;
 }
 .page-header.small {
-
+  height: 80px;
+}
+.page-header.small .header-inner {
+  height: 80px;
 }
 .page-header h1 {
   font-weight: bold;
