@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300');
+
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+nav.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0,0,0,0.2);
+  border: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent !important;
+  font-weight: bold;
+}
+nav.navbar ul li a, .navbar-brand {
+  color: #fff !important;
+  line-height: 50px;
+}
+.page-header {
+  height: 700px;
+  z-index: -1;
+  margin-top: 0;
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 0;
+  color: #fff;
+}
+.page-header h1 {
+  font-weight: bold;
+}
+.page-header .header-inner {
+  width: 100%;
+  height: 700px;
+  background: url("../images/ipencap.png");
+}
+.page-header .header-inner .push-down {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  z-index: 10;
+}
+.page-header .input-group {
+  margin-top: 40px;
+}
+.page-header .input-group .form-control {
+  font-size: 25px;
+  line-height: 240px;
+  height: 60px;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.page-header .input-group .form-control::placeholder {
+  font-size: 25px;
+  color: #fff;
+}
+.page-header .input-group-addon {
+  background: none !important;
+  border: none;
+  color: #fff;
+  font-size: 20px;
+}
+.page-header .form-control {
+  background-color: transparent !important;
+  border: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+/*.page-body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: auto;
+}
+.page-body .inner-body {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: #fff;
+}*/
+
+footer.footer {
+  background-color: #ddd !important;
+  padding: 15px 0;
+  margin-top: 50px;
+}
