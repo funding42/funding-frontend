@@ -1,16 +1,21 @@
-var remote_host = "http://192.168.178.51:8080"; 
+var remote_host = "https://192.168.178.51:8080";
+var remote_api_path = "/api"
+https://localhost:8080/api/project/ 
+
+$(function(){
+    init();
+});
 
 function init() {
-    $("#test1").click(function() {
+    $("#test1").click(function (e) { 
         test();
+        e.preventDefault();
     });
 }
 
-function test() {
-    alert("Test erfolgreich");
-    /*
+function test() {  
     $.ajax({
-        url: remote_host + "/api/getWeather",
+        url: remote_host + remote_api_path + "/project",
         //data: {
         //    zipcode: 97201
         //},
@@ -18,5 +23,5 @@ function test() {
             $("#test1-result").html("Hallo");
         }
     });
-    */
+    
 }
