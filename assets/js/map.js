@@ -2,7 +2,7 @@ var locations = [
     ['<label>Spielplatzrenovierung im Hansaviertel</label><br><a href="project-details.html">Mehr erfahren</a>', 51.9677105,7.6288182,18.25]
 ];
 var map = new google.maps.Map(document.getElementById('map'), {
-    zoom: 7,
+    zoom: 14,
     scrollwheel: true,
     navigationControl: false,
     mapTypeControl: false,
