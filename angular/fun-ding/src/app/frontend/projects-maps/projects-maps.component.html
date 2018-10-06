@@ -1,0 +1,23 @@
+<section class="featured">
+    <div class="jumbotron page-header">
+      <div class="header-inner">
+          <div class="container">
+            <p></p>
+            <h1>Fun-Ding</h1>
+  
+            <agm-map [latitude]="towLat" [longitude]="towLng" [zoom]="13" style="color:black">
+                <agm-marker *ngFor="let marker of markers" [latitude]="marker.latitude" [longitude]="marker.longitude">
+                    <agm-info-window><h4>{{ marker.info }}</h4><p>
+                        <a style="color:black important!" routerLink="/home" class="nav-link navbar-brand" routerLinkActive="active">HOME</a>
+                    </p></agm-info-window>
+                  </agm-marker> -->
+            
+                </agm-map>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+<link href="assets/css/funding.css" rel="stylesheet">
