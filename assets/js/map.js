@@ -1,6 +1,5 @@
 var locations = [
-    ['<label>BLAIQMEDIA LTD Deutschland</label><br>Westring 1<br>33378 Rheda-WiedenbrÃ¼ck<br>NRW, Deutschland', 51.828552, 8.2992893, 2],
-    ['<label>BLAIQMEDIA LTD England</label><br>Victoria House, Suite 41,<br>38 Surrey Quays Road<br>SE16 7DX London', 51.5194206, -0.124383, 2]
+    ['<label>Spielplatzrenovierung im Hansaviertel</label><br><a href="project-details.html">Mehr erfahren</a>', 51.9677105,7.6288182,18.25]
 ];
 var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 7,
@@ -90,7 +89,7 @@ var map = new google.maps.Map(document.getElementById('map'), {
             ]
         }
     ],
-    center: new google.maps.LatLng(52.128552, 4.2992893),
+    center: new google.maps.LatLng(51.9677105,7.6288182),
     mapTypeId: google.maps.MapTypeId.ROADMAP
 });
 var infowindow = new google.maps.InfoWindow();

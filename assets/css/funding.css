@@ -281,3 +281,14 @@ footer.footer {
   background-color: #303F9F;
   color: #fff;
 }
+
+.navbar-toggle {
+  color: #fff;
+  border: none;
+  border-color: #fff !important;
+  background-color: transparent !important;
+}
+
+.gallery {
+  max-width: 100%;
+}
