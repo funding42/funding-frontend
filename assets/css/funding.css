@@ -262,3 +262,7 @@ footer.footer {
 .pagination > .active > a {
   background-color: #303F9F;
 }
+
+.projects-container span.pull-right {
+  line-height: 40px;
+}
