@@ -106,5 +106,20 @@
     <script src="assets/js/frontend.js"></script>
     <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyADYkL96R1SVjPl5UvSEnzZ6rF0KOZPJNc"></script>
     <script src="assets/js/map.js"></script>
+    <script>
+      // Get the input field
+  var input = document.getElementById("search-form");
+  
+  // Execute a function when the user releases a key on the keyboard
+  input.addEventListener("keyup", function(event) {
+    // Cancel the default action, if needed
+    event.preventDefault();
+    // Number 13 is the "Enter" key on the keyboard
+    if (event.keyCode === 13) {
+      document.location.href = "project-map.html";
+    }
+  }); 
+      </script>
+
   </body>
 </html>
