@@ -247,3 +247,15 @@ footer.footer {
 .btn.btn-fullwidth {
   width: 100%;
 }
+
+.btn.btn-primary {
+  background-color: #303F9F;
+  border: none;
+  border-radius: 0;
+}
+.progress .progress-bar-primary {
+  background-color: #303F9F;
+}
+.progress {
+  border-radius: 0;
+}
