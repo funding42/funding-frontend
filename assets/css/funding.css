@@ -259,3 +259,6 @@ footer.footer {
 .progress {
   border-radius: 0;
 }
+.pagination > .active > a {
+  background-color: #303F9F;
+}
