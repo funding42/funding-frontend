@@ -215,3 +215,31 @@ footer.footer {
 .financing .progress {
   margin-bottom: 5px;
 }
+
+
+.profile-container .well {
+  border-radius: 0;
+  border: 0;
+  background-color: #ddd;
+}
+
+.profile-container, .projects-container {
+  text-align: justify;
+}
+
+.profile-container h2, .projects-container h2 {
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.profile-container .profile-picture {
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: block;
+}
+.profile-container .label {
+  margin-bottom: 1px;
+  display: inline-block;
+}
