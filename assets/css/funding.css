@@ -12,6 +12,13 @@ nav.navbar {
   background-color: rgba(0,0,0,0.2);
   border: none;
 }
+nav.navbar img.logo {
+  height: 30px;
+  display: inline-block;
+}
+.page-header img.logo {
+  width: 20%;
+}
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
   background-color: transparent !important;
   font-weight: bold;
@@ -62,7 +69,7 @@ nav.navbar ul li a, .navbar-brand {
 }
 .page-header .header-inner .push-down {
   position: absolute;
-  top: 25%;
+  top: 120px;
   width: 100%;
   z-index: 10;
 }
