@@ -269,3 +269,15 @@ footer.footer {
 .qr {
   width: 100%;
 }
+
+.modal-header, .modal-footer, .modal-content {
+  border-radius: 0 !important;
+}
+.btn {
+  border-radius: 0 !important;
+}
+
+.modal-header {
+  background-color: #303F9F;
+  color: #fff;
+}
