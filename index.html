@@ -54,12 +54,10 @@
               <img src="assets/images/logo.png" class="logo" />
               <h1>Fun-Ding</h1>
               <p>Projekte. Talente. Finanzen... Fun-Ding.de!<br />Die Promoting-Plattform für Münster</p>
-              <form id="search-form" action="/api/projects/search" method="get">
-                <div class="input-group">
-                  <span class="input-group-addon" id="search-addon"><span class="glyphicon glyphicon-search"></span></span>
-                  <input type="text" class="form-control" id="search" name="search" placeholder="Projekt suchen..." aria-describedby="search-addon">
-                </div>
-              </form>
+              <div class="input-group">
+                <span class="input-group-addon" id="search-addon"><span class="glyphicon glyphicon-search"></span></span>
+                <input type="text" class="form-control" id="search" name="search" placeholder="Projekt suchen..." aria-describedby="search-addon">
+              </div>
             </div>
           </div>
         </div>
@@ -108,8 +106,8 @@
     <script src="assets/js/map.js"></script>
     <script>
       // Get the input field
-  var input = document.getElementById("search-form");
-  
+  var input = document.getElementById("search");
+
   // Execute a function when the user releases a key on the keyboard
   input.addEventListener("keyup", function(event) {
     // Cancel the default action, if needed
@@ -118,7 +116,7 @@
     if (event.keyCode === 13) {
       document.location.href = "project-map.html";
     }
-  }); 
+  });
       </script>
 
   </body>
